@@ -5,10 +5,9 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('',views.index,name='index'),
-    path('cart/',views.cart,name='cart'),
-    path('shop/',views.shop,name='shop'),
-    path('shop/product/',views.product,name='product'),
+    path('', views.index, name='index'),
+    path('cart/', views.cart, name='cart'),
+    path('shop/', views.shop, name='shop'),
 ]
 
 if settings.DEBUG:
